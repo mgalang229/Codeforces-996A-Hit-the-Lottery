@@ -10,20 +10,16 @@ int main(){
 	while(n != 0){
 		if(n >= 100){
 			n -= 100;
-			cnt++;
 		} else if(n >= 20){
 			n -= 20;
-			cnt++;
 		} else if(n >= 10){
 			n -= 10;
-			cnt++;
 		} else if(n >= 5){
 			n -= 5;
-			cnt++;
 		} else if(n >= 1){
 			n--;
-			cnt++;
 		}
+		cnt++;
 	}
 	cout << cnt << "\n";
 	return 0;
